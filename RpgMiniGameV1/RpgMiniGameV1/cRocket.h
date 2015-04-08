@@ -8,7 +8,7 @@ cRocket.h
 #ifndef _CROCKET_H
 #define _CROCKET_H
 #include "cSprite.h"
-#include "rpgMiniGame.h"
+#include "asteroidsGame.h"
 
 class cRocket : public cSprite
 {

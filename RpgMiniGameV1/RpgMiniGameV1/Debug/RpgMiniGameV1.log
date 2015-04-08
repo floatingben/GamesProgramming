@@ -1,7 +1,62 @@
-﻿Build started 09/04/2015 00:36:10.
+﻿Build started 08/04/2015 00:31:08.
      1>Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\RpgMiniGameV1\RpgMiniGameV1.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.lib" /MACHINE:X86 Debug\rpgMiniGame.obj
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt asteroidsGame.cpp cAsteroid.cpp cBkGround.cpp cBullet.cpp cFont.cpp cFontMgr.cpp cInputMgr.cpp cRocket.cpp cSound.cpp cSoundMgr.cpp cSprite.cpp cTexture.cpp cWNDManager.cpp main.cpp windowOGL.cpp
+         windowOGL.cpp
+         main.cpp
+         cWNDManager.cpp
+         cTexture.cpp
+         cSprite.cpp
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(106): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(107): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(180): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(184): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(206): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(241): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(242): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(243): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(244): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(301): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(313): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(314): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\csprite.cpp(315): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         cSoundMgr.cpp
+         cSound.cpp
+         cRocket.cpp
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\crocket.cpp(23): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\crocket.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\crocket.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\crocket.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         cInputMgr.cpp
+         cFontMgr.cpp
+         cFont.cpp
+         cBullet.cpp
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(23): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(91): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(102): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(103): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(104): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\cbullet.cpp(105): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+         cBkGround.cpp
+         cAsteroid.cpp
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(31): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(84): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(95): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(96): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(97): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\rpgminigamev1\rpgminigamev1\casteroid.cpp(98): warning C4244: 'argument' : conversion from 'LONG' to 'GLfloat', possible loss of data
+         asteroidsGame.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.lib" /MACHINE:X86 Debug\asteroidsGame.obj
+         Debug\cAsteroid.obj
          Debug\cBkGround.obj
          Debug\cBullet.obj
          Debug\cFont.obj
@@ -22,13 +77,9 @@
          Libraries\ILU.lib
          Libraries\ILUT.lib
          Libraries\OpenAL32.lib
-     1>main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall cAsteroid::render(void)" (?render@cAsteroid@@UAEXXZ)
-     1>main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall cAsteroid::update(float)" (?update@cAsteroid@@UAEXM@Z)
-     1>main.obj : error LNK2019: unresolved external symbol "public: void __thiscall cAsteroid::setAsteroidVelocity(struct glm::detail::tvec2<float,0>)" (?setAsteroidVelocity@cAsteroid@@QAEXU?$tvec2@M$0A@@detail@glm@@@Z) referenced in function _WinMain@16
-     1>main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall cAsteroid::renderCollisionBox(void)" (?renderCollisionBox@cAsteroid@@UAEXXZ)
-     1>C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.exe : fatal error LNK1120: 4 unresolved externals
-     1>Done Building Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\RpgMiniGameV1\RpgMiniGameV1.vcxproj" (Build target(s)) -- FAILED.
+         RpgMiniGameV1.vcxproj -> C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\Debug\RpgMiniGameV1.exe
+     1>Done Building Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\RpgMiniGameV1\RpgMiniGameV1\RpgMiniGameV1.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:02.18
+Time Elapsed 00:00:30.38
