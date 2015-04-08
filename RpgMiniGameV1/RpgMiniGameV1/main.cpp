@@ -12,7 +12,7 @@
 #include "cSoundMgr.h"
 #include "cFontMgr.h"
 #include "cSprite.h"
-#include "asteroidsGame.h"
+#include "rpgMiniGame.h"
 
 int WINAPI WinMain(HINSTANCE hInstance,
                    HINSTANCE hPrevInstance,
@@ -112,7 +112,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 
 	cTexture textureBkgd;
-	textureBkgd.createTexture("Images\\starscape1024x768.png");
+	textureBkgd.createTexture("Images\\background.png");
 	cBkGround spriteBkgd;
 	spriteBkgd.setSpritePos(glm::vec2(0.0f, 0.0f));
 	spriteBkgd.setTexture(textureBkgd.getTexture());
