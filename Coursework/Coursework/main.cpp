@@ -27,7 +27,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
                    int cmdShow)
 {
 	//Gives value to our timer
-	float time = 30; 
+	float time = 40; 
 
 	AllocConsole();
 	AttachConsole(GetCurrentProcessId());

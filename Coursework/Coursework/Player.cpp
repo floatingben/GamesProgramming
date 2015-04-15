@@ -5,8 +5,11 @@
 
 Player::Player(World *pWorld)
 {
+	//Set the value of the score system to 0
 	score = 0;
 	world = pWorld;
+
+	//exact position vlaue and the speed of the controlsr
 	sprite.setSpritePos(glm::vec2(80, 0));
 	float velocity = 50;
 	accelerationX = 10 * velocity;
@@ -15,7 +18,6 @@ Player::Player(World *pWorld)
 	maxSpeedY = 10 * velocity;
 	speedX = 0;
 	speedY = 0;
-	m_lastTime = 0;
 	forwardDirection = glm::vec2(1, 0);
 	upDirection = glm::vec2(0, -1);
 }
