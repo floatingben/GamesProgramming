@@ -20,7 +20,6 @@
     <ClInclude Include="cTexture.h" />
     <ClInclude Include="cWNDManager.h" />
     <ClInclude Include="GameConstants.h" />
-    <ClInclude Include="MainMenu.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Tile.h" />
@@ -38,7 +37,6 @@
     <ClCompile Include="cTexture.cpp" />
     <ClCompile Include="cWNDManager.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="windowOGL.cpp" />

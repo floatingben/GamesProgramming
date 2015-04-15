@@ -27,7 +27,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
                    int cmdShow)
 {
 	//Gives value to our timer
-	float time = 60; 
+	float time = 30; 
 
 	AllocConsole();
 	AttachConsole(GetCurrentProcessId());
@@ -91,8 +91,6 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	//theFontMgr->addFont("SevenSeg", gameFonts[0], 24);
 	theFontMgr->addFont("Space", gameFonts[1], 24);
 
-	//cTexture mainMenuTexture;
-	//mainMenuTexture.createTexture("images\\HelpMenu.png");
 	//create texture for the bush
 	cTexture texture;
 	texture.createTexture("images\\bush.png");
@@ -105,15 +103,10 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	world.SetBush(texture.getTexture(), texture.getTWidth(), texture.getTHeight());
 	world.SetApple(appletexture.getTexture(), appletexture.getTWidth(), appletexture.getTHeight());
 	
-	//
 	Player pl(&world);
 	pl.attachInputMgr(theInputMgr); // Attach the input manager to the sprite
-	//MainMenu mainMenu(&pl);
-	//cSprite mainMenuSprite;
-	//mainMenuSprite.setTexture(mainMenuTexture.getTexture());
-	//mainMenuSprite.setTextureDimensions(mainMenuTexture.getTWidth(), mainMenuTexture.getTHeight());
-	//mainMenuSprite.setSpritePos(glm::vec2(mainMenuTexture.getTWidth() / 2, mainMenuTexture.getTHeight() / 2));
 	
+	//textures and sprites declared
 	cTexture textureBkgd;
 	cSprite spriteBkgd;
 	cTexture plText;
@@ -123,6 +116,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	cTexture textureStartBkgd;
 	cSprite spriteStartBkgd;
 
+		
 		textureStartBkgd.createTexture("Images\\first.png");
 		spriteStartBkgd.setTexture(textureStartBkgd.getTexture());
 		spriteStartBkgd.setTextureDimensions(textureStartBkgd.getTWidth(), textureStartBkgd.getTHeight());
@@ -191,25 +185,13 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		/*if (mainMenu.GetState() == helpMenu)
-		{
-			mainMenuSprite.render();
-			mainMenu.Update();
-		}*/
-		//if (mainMenu.GetState() == Game)
 		
 		pl.Update(elapsedTime, &world);
 		pl.Update(elapsedTime, &world);
-		
-		
+			
 		
 		}
-
-		
-	
-		//theInputMgr->clearBuffers(theInputMgr->KEYS_DOWN_BUFFER | theInputMgr->KEYS_PRESSED_BUFFER);
     
-
 	theOGLWnd.shutdown(); //Free any resources
 	pgmWNDMgr->destroyWND(); //Destroy the program window
 

@@ -162,15 +162,15 @@ void World::SetBush(GLuint GLtexID, int width, int height)
 void World::SetApple(GLuint GLtexA, int width, int height)
 {
 		apple1 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple2 = new Tile(GLtexA, width, height, glm::vec2(150, 100));
-		apple3 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple4 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple5 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple6 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple7 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple8 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple9 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
-		apple10 = new Tile(GLtexA, width, height, glm::vec2(100, 100));
+		apple2 = new Tile(GLtexA, width, height, glm::vec2(200, 100));
+		apple3 = new Tile(GLtexA, width, height, glm::vec2(530, 100));
+		apple4 = new Tile(GLtexA, width, height, glm::vec2(900, 100));
+		apple5 = new Tile(GLtexA, width, height, glm::vec2(120, 400));
+		apple6 = new Tile(GLtexA, width, height, glm::vec2(385, 335));
+		apple7 = new Tile(GLtexA, width, height, glm::vec2(925, 650));
+		apple8 = new Tile(GLtexA, width, height, glm::vec2(900, 400));
+		apple9 = new Tile(GLtexA, width, height, glm::vec2(385, 690));
+		apple10 = new Tile(GLtexA, width, height, glm::vec2(395, 450));
 }
 
 
