@@ -169,7 +169,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 				
 				string st1 = to_string((int)pl.GetScore());
 				LPCSTR pscore = st1.c_str();
-				theFontMgr->getFont("Space")->printText(pscore, FTPoint(450.0f, -10.0f, 0.0f));
+				theFontMgr->getFont("Space")->printText(pscore, FTPoint(900.0f, -10.0f, 0.0f));
 				
 			}
 		}

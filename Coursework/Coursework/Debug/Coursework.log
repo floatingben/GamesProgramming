@@ -1,23 +1,41 @@
-﻿Build started 15/04/2015 11:47:33.
-     1>Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Coursework\Coursework.vcxproj" on node 2 (Build target(s)).
+﻿Build started 15/04/2015 12:58:59.
+     1>Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Coursework\Coursework.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Player.cpp cSprite.cpp main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cFont.cpp cFontMgr.cpp cInputMgr.cpp cSound.cpp cSoundMgr.cpp cSprite.cpp cTexture.cpp cWNDManager.cpp main.cpp Player.cpp Tile.cpp windowOGL.cpp World.cpp
+         World.cpp
+         windowOGL.cpp
+         Tile.cpp
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\tile.cpp(10): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\tile.cpp(11): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\tile.cpp(14): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\tile.cpp(15): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\tile.cpp(16): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\tile.cpp(17): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+         Player.cpp
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(38): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(39): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(52): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(53): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(55): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(56): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(57): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(58): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
          main.cpp
+         cWNDManager.cpp
+         cTexture.cpp
          cSprite.cpp
      1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\csprite.cpp(101): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
      1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\csprite.cpp(103): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
      1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\csprite.cpp(105): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
      1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\csprite.cpp(107): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-         Player.cpp
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(35): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(36): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(49): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(50): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(52): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(53): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(54): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>c:\users\gary\desktop\gp1coursework\gamesprogramming\coursework\coursework\player.cpp(55): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+         cSoundMgr.cpp
+         cSound.cpp
+         cInputMgr.cpp
+         cFontMgr.cpp
+         cFont.cpp
          Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Coursework.res" Coursework.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Debug\Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Debug\Coursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Debug\Coursework.lib" /MACHINE:X86 Debug\Coursework.res
          Debug\cFont.obj
@@ -41,8 +59,8 @@
          Libraries\ILUT.lib
          Libraries\OpenAL32.lib
          Coursework.vcxproj -> C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Debug\Coursework.exe
-     1>Done Building Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Coursework\Coursework.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Gary\Desktop\GP1Coursework\GamesProgramming\Coursework\Coursework\Coursework.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:23.12
+Time Elapsed 00:00:53.00
